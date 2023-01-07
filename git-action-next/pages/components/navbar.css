@@ -1,0 +1,25 @@
+.navbar{
+    margin-top: 0px;
+    padding:5px;
+    position:fixed;
+    display:flex;
+    justify-content: space-between;
+
+}
+.list{
+    display:flex;
+    justify-content: space-around;
+}
+.list>*{
+    margin-left: 2rem;
+    color:white;
+}
+.list>*:hover{
+    margin-left: 2rem;
+    cursor: pointer;
+    color:red
+}
+.heading{
+    margin-left: -10rem;
+    
+}
