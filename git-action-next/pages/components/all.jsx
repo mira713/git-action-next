@@ -1,8 +1,6 @@
-import React,{useState, useEffect} from 'react'
-import './all.css'
+import React,{useState,useEffect} from 'react'
 
-const all = () => {
-
+const All = () => {
     let [data, setData] = useState([])
     let [loading, setLoading] =useState(false)
     let getData=async()=>{
@@ -40,4 +38,4 @@ useEffect(()=>{
   )
 }
 
-export default all
+export default All
